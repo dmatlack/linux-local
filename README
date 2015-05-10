@@ -1,0 +1,12 @@
+linux-local
+==============================================================================
+
+Building archlinux kernel packages from a local source directory.
+
+Usage
+------------------------------------------------------------------------------
+
+BUILDDIR=/path/to/your/kernel/sources makepkg -f
+
+This will create the package linux-local-1.0-1-any.pkg.tar.xz which you
+can then install on any target archlinux machine.
